@@ -1,0 +1,21 @@
+.name {
+    text-transform: uppercase;
+}
+
+.item h2 {
+    display: inline;
+}
+
+.item span {
+    display: inline;
+}
+
+.form .container {
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+.form span {
+    color: rgb(189, 189, 189);
+    font-size: 0.7em;
+}

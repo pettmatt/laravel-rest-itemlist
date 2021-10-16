@@ -1,0 +1,106 @@
+body {
+    margin: 0 5rem;
+    background-color: rgb(37, 37, 37);
+    color: #eee;
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    padding-right: 1.5em;
+}
+
+input, textarea {
+    padding: 0.3em;
+    font-size: 0.8em;
+    border: 0.3em solid rgb(189, 189, 189);
+    border-radius: 0.2em;
+    width: 15em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+textarea {
+    height: 7em;
+}
+
+button {
+    padding: 0.3em;
+    font-size: 0.8em;
+    border: 0.25em solid rgb(189, 189, 189);
+    border-radius: 0.2em;
+}
+
+a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    animation-duration: 0.8s;
+    animation: 0.7s;
+}
+
+a:hover {
+    color: rgb(150, 255, 255);
+}
+
+.own-space {
+    margin: 2em 0;
+}
+
+.list {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.red {
+    color: crimson;
+}
+
+.yellow {
+    color: yellowgreen;
+}
+
+.green {
+    color: darkseagreen;
+}
+
+.blue {
+    color:dodgerblue;
+}
+
+.notification {
+    border: 3px solid;
+    border-radius: 0.2em;
+    padding: 0 0.6em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.delete {
+    position: relative;
+    right: 0;
+}
+
+.item {
+    border-bottom: 3px dotted #fff;
+    padding: 0.3em 0;
+}
