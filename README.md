@@ -19,13 +19,11 @@ Clone from GitHub: `git clone https://github.com/pettmatt/laravel-rest-itemlist.
 
 Install composer dependencies: `composer install`
 
-Turn on local server.
+Remember to ``turn on`` your local server using your chosen application. In my case this would be MAMP. 
 
-Start local server: `php artisan serve`
+Start the local server of the application: `php artisan serve`
 
-Note: Remember to ``turn on`` your local server using your chosen application. In my case this would be MAMP. 
-
-Also your local server might need a database named as `laravel_rest_api`.
+Note: Local server might need a database named as `laravel_rest_api`.
 
 If everything went as planned you should see the application in your browser.
 
